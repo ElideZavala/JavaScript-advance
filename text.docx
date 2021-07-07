@@ -1,2 +1,3 @@
 Anotaciones de JavaScrit 
 
+-  Cuando llamamos  a una función como propiedad de un objeto, el nombre de la función se convierte en un método. 
