@@ -8,6 +8,14 @@
 // ==> Los metodos llevan parentesis y las propidades no. 
 // Metodo toUpperCase()
 
-let movie = 'el Atlas'
-console.log(movie.toUpperCase());
+// let movie = 'El ATLAS'   
+// console.log(movie.toUpperCase());  // => es un metodo
 
+// console.log(movie.toLowerCase());
+
+let pet = "Birdy the bird"
+console.log(pet);
+// El Indice empiesa desde 0
+console.log(pet[4]); // => Obtenemos la letra i.
+
+console.log(pet[pet.length - 1]); // => No es un Numero

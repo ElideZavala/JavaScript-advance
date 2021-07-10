@@ -1,3 +1,16 @@
 Anotaciones de JavaScrit 
 
 -  Cuando llamamos  a una función como propiedad de un objeto, el nombre de la función se convierte en un método. 
+
+
+String 
+
+- Para Cualquier string dentro de una varible el indice inicia desde 0
+ let nombre = "Elide"
+               01234 
+
+            Para seleccionar la i seria
+            nombre[2];   <== Por que el 2 es el lugar que ocupa la i
+
+            
+
