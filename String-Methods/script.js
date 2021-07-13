@@ -21,16 +21,21 @@ console.log(pet);
 // console.log(pet[pet.length - 1]); // => No es un Numero
 
 // slice method
-Note: // Corta los elementos desde el indice 0. 
+// Note: // Corta los elementos desde el indice 0. 
 	// console.log(pet.slice(4));
 
 	// Que empiece desde un numero y termine de cortar 
 	// console.log(pet.slice(6, 10)); // <== Cortara apartir del indice 6 y cortara en el 10. 
 
-	// Split method 
-	Note: // divide los elementos del string  
+// Split method 
+// Note: // divide los elementos del string  
 	// console.log(pet.split(" ")); // <== Divide los elementos conforme el string que le has pasado. 
 
-	// Includes method 
-	Note: // Buscar el elemento si se enc
+// Includes method 
+// Note: // Buscar el elemento si se encuentra en el string 
+	// Regfresara un false o un true. 
 	console.log(pet.includes('i'))
+
+// Replace method 
+// Note: // Remplazar el string por otro. 
+console.log(pet.replace('the', 'a'));
