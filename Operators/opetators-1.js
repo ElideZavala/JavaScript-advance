@@ -15,26 +15,26 @@
 // console.log( 15 <= 16); //>>> false  // <== Ignora el igual.
  
 // // The == Equality Operator 
-// console.log(1 == 1);   // <<< true
-// console.log(1 == "1"); // <<< true  // <== No es un numero pero igual indica true. 
-// console.log("z" == "z")    // <<< true  
-// console.log(true == true)  // <<< true 	
-// console.log(false == true) // <<< false // <== En este caso hablamos de un booleano.
-// console.log(0 == "");      // <<< true  // <== La cadena se encuentra vacia.  
-// console.log(undefined == null) // <<< true <== Ambos tienen el mismo concepto pero son diferentes 
-// console.log(false == 0); // <<<  true <== tiene el valor de 0
-// console.log(true == 1); // <<<  true <== tiene el valor de 1.
+console.log(1 == 1);   // <<< true
+console.log(1 == "1"); // <<< true  // <== No es un numero pero igual indica true. 
+console.log("z" == "z")    // <<< true  
+console.log(true == true)  // <<< true 	
+console.log(false == true) // <<< false // <== En este caso hablamos de un booleano.
+console.log(0 == "");      // <<< true  // <== La cadena se encuentra vacia.  
+console.log(undefined == null) // <<< true <== Ambos tienen el mismo concepto pero son diferentes 
+console.log(false == 0); // <<<  true <== tiene el valor de 0
+console.log(true == 1); // <<<  true <== tiene el valor de 1.
 
 // The === strict Equality Operator 
-// console.log(1 === 1);   // <<< true
-// console.log(1 === "1"); // <<< false  // <=== No es un numero(modo stricto)
-// console.log("z" === "z")    // <<< true  
-// console.log(true === true)  // <<< true 
-// console.log(false === true) // <<< false // <=== En este caso hablamos de un booleano.
-// console.log(0 === "");      // <<< false  // <=== 0 en modo stricto es un numero.  
-// console.log(undefined === null) // <<< false <=== Ambos tienen el mismo concepto pero son diferentes 
-// console.log(false === 0); // <<<  false <=== uno es boleano y el otro numero
-// console.log(true === 1); // <<<  false <=== uno es boleano y el otro numero
+console.log(1 === 1);   // <<< true
+console.log(1 === "1"); // <<< false  // <=== No es un numero(modo stricto)
+console.log("z" === "z")    // <<< true  
+console.log(true === true)  // <<< true 
+console.log(false === true) // <<< false // <=== En este caso hablamos de un booleano.
+console.log(0 === "");      // <<< false  // <=== 0 en modo stricto es un numero.  
+console.log(undefined === null) // <<< false <=== Ambos tienen el mismo concepto pero son diferentes 
+console.log(false === 0); // <<<  false <=== uno es boleano y el otro numero
+console.log(true === 1); // <<<  false <=== uno es boleano y el otro numero
 
 // The != Non equality Operator(-)
 // console.log(1 != "1"); // <<< false
