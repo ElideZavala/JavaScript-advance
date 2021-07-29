@@ -13,9 +13,12 @@ const moods2 = ['frustrated', 'uncertain', 'relaxed'];
 
 // reverse method 
 // TODO: .reverse() => Invertir el array 
-console.log(moods1.reverse());
+// console.log(moods1.reverse());
 
-// join method
-// TODO: .join() =>
+// join method 
+// TODO: .join() => Union de todos los elementos o separacion de estos pediate , . o lo que le pases en el join
+// console.log(moods1.join(''));
+// console.log(moods1.join('-'));
+// console.log(moods1.join(','));
 
 
