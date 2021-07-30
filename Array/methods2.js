@@ -21,4 +21,14 @@ const moods2 = ['frustrated', 'uncertain', 'relaxed'];
 // console.log(moods1.join('-'));
 // console.log(moods1.join(','));
 
+// Nesting: arrays of arrays
+const julio = [
+    ['de animales a dioses', 'las riquezas de las naciones', 'los miserables', 'meditaciones', 'psicologia oculta','la tabla de las esmeraldas'],
+    ['Goku','Vegeta', 'krilin', 'bills'],
+    ['Frezeer','Zell', 'Doribi', 'Zans'],
+    ['Rant','Riu', 'Flren', 'Artur']
+]
+
+// console.log(julio[0])      // <== Accedemos al arreglo.
+console.log(julio[1][3]);  // <== Accedemos a un elemento del arreglo.
 
