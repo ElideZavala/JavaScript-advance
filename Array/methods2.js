@@ -11,6 +11,9 @@ const moods2 = ['frustrated', 'uncertain', 'relaxed'];
 // console.log(moods1.concat(moods2));
 // console.log(moods2.concat(moods1));
 
+// not allowed => error
+ 
+
 // reverse method 
 // TODO: .reverse() => Invertir el array 
 // console.log(moods1.reverse());
@@ -30,5 +33,5 @@ const julio = [
 ]
 
 // console.log(julio[0])      // <== Accedemos al arreglo.
-console.log(julio[1][3]);  // <== Accedemos a un elemento del arreglo.
+console.log(`${julio[1][3]} is dios de la destruccion`);  // <== Accedemos a un elemento del arreglo.
 
