@@ -38,4 +38,4 @@ console.log(user[0]);
 console.log(user[0].name);
 console.log(user[2]);
 console.log(user[2][1]);
-console.log(`${user[0]["name"]} trabaja como ${user[0]["trabajo"]}`);
+console.log(`${user[0]["name"]} trabaja como ${user[0]["trabajo"]}`);   
