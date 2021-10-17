@@ -11,11 +11,19 @@
 
 // Functions accepting other functions as returned values => factory function 
 
-function sum(x) {
-	return function (y) {
-		return x + y;
-	}
-}
+// function sum(x) {
+// 	return function (y) {
+// 		return x + y;
+// 	}
+// }
 
-let num1 = sum(5);
-console.log(num1(4));
+// let num1 = sum(5);
+// let num2 = sum(115); 
+// console.log(num1(4));
+// console.log(num2(551));
+
+// ***********Callback functions*****************
+// Example 1
+setTimeout(function () {
+	console.log(2 + 2)
+}, 500);
