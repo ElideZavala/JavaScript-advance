@@ -27,3 +27,9 @@
 setTimeout(function () {
 	console.log(2 + 2)
 }, 500);
+
+const btn = document.querySelector('button');
+const para = document.querySelector('p')
+btn.addEventListener('click', function() {
+	para.classList.add("active");
+})
