@@ -12,4 +12,7 @@
 // const item = document.querySelector("ul li:nth-child(2)")
 // console.log(item);
 // console.log(item.previousElementSibling);
-// console.log(item.nextElementSibling);
+// console.log(item.nextElementSibling); 
+const image = document.querySelector("img");
+const imageProps = getComputedStyle(image);
+console.log(imageProps);
