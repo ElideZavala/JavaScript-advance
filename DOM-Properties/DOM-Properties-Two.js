@@ -26,3 +26,11 @@ newH8.innerHTML = "Gatos";
 // const mainHeading = document.querySelector('h1');
 mainHeading.prepend(newH7, newH8);
 
+/******* Method removeChild *******/
+
+const toDoList = document.querySelector("ol");
+const toDoItem = document.querySelector("ol li:nth-child(3)");
+// toDoList.removeChild(toDoItem);
+
+/******* Method remove => No require Parent node *******/
+toDoItem.remove();
